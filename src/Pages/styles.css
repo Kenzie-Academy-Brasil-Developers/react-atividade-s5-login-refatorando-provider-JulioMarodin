@@ -1,0 +1,32 @@
+body {
+  background-color: #caf0f8;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 10px;
+}
+
+img {
+  width: 250px;
+}
+
+button {
+  width: 100px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
